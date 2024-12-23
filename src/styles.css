@@ -5,7 +5,7 @@
 
 @layer base {
     body {
-        @apply bg-slate-200
+        @apply bg-slate-100
     }
     button {
         @apply bg-turquoise-blue-500 px-2 py-1 text-white rounded-xl 

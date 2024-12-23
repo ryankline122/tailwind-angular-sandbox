@@ -1,14 +1,15 @@
-<div class="flex justify-center items-center border-2 border-red-600 h-[90vh]">
-    <div class="overlay text-center">
-      <h1 class="text-6xl font-semibold">{{title}}</h1>
-      <p class="pt-3">{{subtitle}}</p>
+<div class="relative flex justify-center items-center border-2 z-0 h-[90vh]">
+  <div class="absolute inset-0 bg-cover bg-center opacity-30"
+       [style.backgroundImage]="'url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc1%2Fc7%2F96%2Fc1c796c22d4aafeeb8f29ba8d46c7562.jpg&f=1&nofb=1&ipt=daae5e19afd5b8972787aeb00b67c66b8bbc08c7f286bdc156285c75fb8650fd&ipo=images)'"></div>
+  <div class="relative z-10 text-center">
+    <h1 class="text-6xl font-semibold">{{title}}</h1>
+    <p class="pt-3">{{subtitle}}</p>
 
-      <div class="mt-3">
-        <button>Primary Button</button>
-        <button class="ml-2 bg-transparent border-2 border-turquoise-blue-400 text-turquoise-blue-400">
-          Secondary Button
-        </button>
-      </div>
-
+    <div class="mt-3">
+      <button>Download Resume</button>
+      <button class="ml-2 bg-transparent border-2 border-turquoise-blue-400 text-turquoise-blue-400">
+        Contact
+      </button>
     </div>
+  </div>
 </div>

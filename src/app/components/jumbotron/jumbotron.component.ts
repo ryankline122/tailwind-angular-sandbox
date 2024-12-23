@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './jumbotron.component.css'
 })
 export class JumbotronComponent {
-  title: string = "A Simple Heading"
-  subtitle: string = "A Simple Sub-heading"
+  title: string = "Ryan Kline"
+  subtitle: string = "Full Stack Software Engineer"
   // backgroundImage: string = "/assets/images/wallpaper.jpg"
 }
