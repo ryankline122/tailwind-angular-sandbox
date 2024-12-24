@@ -9,5 +9,5 @@ import { DropdownComponent } from "./dropdown/dropdown.component";
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  
+  blogActive: boolean = false;
 }
